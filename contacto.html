@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BIENES RAICES</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header class="headerGral">
+        <div class="contenedorHeaderGral">
+            <div class="cajaLogoGral">
+                <a href="index.html"><img src="img/logo.png" alt="logoBienesRaices"></a>
+            </div>
+
+            <nav class="navHeaderGral">
+                <ul>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="anuncios.html">Anuncios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="contacto">
+        <h2>Contacto</h2>
+        <div class="bannerContacto">
+
+        </div>
+        
+        <h2>Llena el Formulario de Contacto</h2>
+
+        <div class="contenedorFormulario">
+
+            <form>
+                <fieldset>
+                    <legend>
+                        <h3>Información Personal</h3>
+                    </legend>
+                    <label>Nombre:</label>
+                    <input type="text" placeholder="Tu Nombre" required>
+                    
+                    <label>E-mail:</label>
+                    <input type="email" placeholder="Tu Email" required>
+                    
+                    <label>Teléfono:</label>
+                    <input type="tel" placeholder="Tu Teléfono" required>
+                    
+                    <label>Mensaje:</label>
+                    <textarea cols="70" rows="10"></textarea> 
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        <h3>Información sobre la Propiedad</h3>
+                    </legend>
+                    <label>Vende o Compra:</label>
+                    <select>
+                        <option disabled selected>--Seleccione--</option>
+                        <option>Vende</option>
+                        <option>Compra</option>
+                    </select>
+                    
+                    <label>Presupuesto:</label>
+                    <input type="text">
+                </fieldset>
+
+                <fieldset>
+                    <legend>
+                        <h3>Contacto</h3>
+                    </legend>
+                        <div class="contactoEnviar">
+                            <label>Cómo desea ser contactado?</label>
+                                <div class="eleccion">
+                                <!--ojo con que cambie el input radio para poner un label y que queden en renglnes diferentes-->
+                                    <label for="radio">Teléfono</label>
+                                    <br>
+                                    <input type="radio" name="medio"></input>
+                                    <br>
+                                    <label for="radio">Email</label>
+                                    <br>
+                                    <input type="radio" name="medio"></input>
+                   
+                                </div>
+                    
+                            <label>Si eligió teléfono, elija fecha y hora</label>
+                            <div class="fechaHora">                            
+                                <label>Fecha</label>
+                                <input type="date"></input>
+                        
+                                <label>Hora</label>
+                                <input type="time"></input>
+                            </div>
+                            <input class="enviar" type="submit" value="ENVIAR"></input>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="contenedorFooter">
+            <nav class="navFooterNosotros">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="anuncios.html">Anuncios</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+
+            <div class="copyright">
+                <p>Todos los derechos reservados ©</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

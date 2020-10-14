@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*header*/
+.Home {
+    background-image: url(img/header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-weight: bold;
+}
+
+.contenedorHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 20vh;
+}
+
+.logo {
+    display: inline-block;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: rgb(238, 237, 228);
+}
+
+.textoHeader {
+    margin-top: 370px;
+    margin-left: 20vh;
+    margin-bottom: 20vh;
+    color: rgb(238, 237, 228);
+}
+
+.textoHeader h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.textoHeader h2{
+    font-size: 23px;
+}
+
+.icon {
+    margin-left: 5px;
+}
+/*sección Sobre Nosotros*/
+
+.sobreNosotros {
+    width: 75%;
+    margin: 40px auto;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.sobreNosotros h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.cajaNosotros {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cajita {
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.cajita h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+.cajita img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+/*main anuncios*/
+main {
+    width: 80%;
+    margin: 40px auto;
+    padding: 0px ;
+}
+
+main h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+.anunciosVenta, .anunciosVentaAbajo {
+    height: 470px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.anuncio {
+    width: 300px;
+    height: 470px;
+    margin: 10px auto;
+    background-color:#f5f5f5;
+    border: 1px solid #bbbbbb; 
+}
+
+.fotoAnuncio {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+.anuncio h3 {
+    margin-bottom: 5px;
+}
+
+.contenidoAnuncio {
+    padding: 15px;
+    line-height: 2;
+}
+
+.textoAnuncio {
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.valor {
+    color: #71b11f;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.comodidades {
+    display: flex;
+    justify-content: space-around;
+}
+.icono img{
+    width: 30px;
+}
+.verPropiedad {
+    background-color:#df8716;
+    width: 260px;
+    height: 40px;
+    color:#ffffff;
+    font-weight: bold;
+    border: 0px;
+    margin-top: 10px;
+}
+
+.verTodas {
+    background-color: #71b11f;
+    width: 150px;
+    height: 40px;
+    color: rgb(238, 237, 228);
+    font-weight: bold;
+    border: 0px;
+    margin-left: 900px;
+}
+/*seccion sueños*/
+.sueños {
+    background-image: url(img/encuentra.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.contenedorSueños {
+    width: 80%;
+    padding: 70px 150px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.sueños h2 {
+    margin-bottom: 50px;
+}
+
+.sueños p {
+    margin-bottom: 50px;
+}
+
+.contactanos {
+    background-color:#df8716;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    border: 0px;
+}
+/*seccion info contiene blog y testimonios*/
+.info {
+    width: 80%;
+    margin: 30px 150px 30px 150px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+.blog {
+    width: 650px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog img {
+    width: 250px;
+    height: auto;
+}
+
+.post1 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.texto {
+    width: 400px;
+    height: auto;
+    margin: 10px 0px 0px 25px;
+}
+
+.texto p {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.texto h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 150px;
+    height: 5px;
+    background-color: #71b11f;
+}
+
+.colorBlog {
+    color: #df8716;
+    font-weight: bold;
+}
+
+.post2 {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+/*quote*/
+.quote {
+    background-color: #71b11f;
+    width: 380px;
+    height: 350px;
+    padding: 50px 40px;
+    border-radius: 20px;
+   
+}
+
+.quote img {
+    width: 30px;
+    float: left;
+}
+
+.textoQuote {
+    text-align: left;
+}
+
+.contenidoQuote {
+    width: 250px;
+    color: rgb(238, 237, 228);
+    font-size: 20px;
+    line-height: 30px;
+    float: right;
+}
+
+.firma {
+    margin-top: 40px;
+    margin-right: 5px;
+    font-weight: bold;
+    float: right;
+}
+
+/*footer*/
+footer {
+    width: 100%;
+    height: 14vh;
+    background-color: #323232;
+    color:#ffffff;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorFooter {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navFooter ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.contenedorFooter p {
+    margin-top: 15px;
+}
+
+/*Aquí comienzan los estilos compartidos por "Nosotros", "Anuncios" y "Contacto".*/
+
+
+.headerGral {
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(53, 50, 50);
+    font-weight: bold;
+}
+
+.contenedorHeaderGral {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh 20vh;
+}
+
+.navHeaderGral {
+    text-align: right;
+}
+
+.navHeaderGral ul {
+    list-style-type: none;
+}
+
+.navHeaderGral li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navHeaderGral ul li a {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(238, 237, 228);
+}
+
+/*Aquí comienzan los estilos específicos de "Nosotros"*/
+
+.conoce {
+    margin: 45px 0px;
+}
+
+.containerConoce {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0vh 20vh;
+}
+
+.conoce img {
+    width: 470px;
+    height: auto;
+}
+
+.conoce h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.containerTextoConoce {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+}
+.conoce h3 {
+    text-align: left;
+    margin-bottom: 50px;
+    font-weight: bolde;
+    font-size: 20px;
+}
+
+.textoConoce {
+    width: 600px;
+    height: auto;
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+
+.textoConoce p {
+    margin-bottom: 20px;
+}
+
+/*Aquí comienzan los estilos específicos de "Contacto"*/
+.bannerContacto {
+    background-image: url(img/destacada3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    
+}
+.contacto h2 {
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.contenedorFormulario {
+    margin: 30px 300px 30px 300px;
+}
+
+.contenedorFormulario fieldset {
+    padding: 30px 20px 10px 20px;
+    margin-bottom: 10px;
+}
+.contenedorFormulario label {
+    font-size: 15px;
+}
+.contenedorFormulario input, textarea, select{
+    background-color: lightgray;
+    border: none;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contenedorFormulario input, select {
+    height: 30px;
+}
+.eleccion, .fechaHora{
+    padding-top: 15px;
+}
+.eleccion input {
+    height: 12px;
+    width: auto;
+    padding-bottom: 15px;
+}
+.contenedorFormulario .enviar {
+    background-color: #71b11f;
+    width: 100px;
+    height: 40px;
+    color: rgb(238, 237, 228);
+    font-weight: bold;
+    margin-top: 15px;
+}
